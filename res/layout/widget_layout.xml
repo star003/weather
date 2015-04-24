@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/layout"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     
+     android:background="@drawable/myshape"
+     android:orientation="vertical" 
+     android:clickable="true"
+     android:duplicateParentState="false"
+     android:longClickable="true"
+     >
+
+ <LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/layout"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="top"
+     android:background="@drawable/myshape"
+     android:baselineAligned="false"
+     android:clickable="true"
+     android:duplicateParentState="false"
+     android:longClickable="true"
+     android:orientation="horizontal" >
+	
+     <TextView
+         android:id="@+id/update"
+         style="@android:style/TextAppearance.Medium"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+         android:layout_margin="4dip"
+         android:layout_weight="1"
+         android:gravity="center_horizontal|center_vertical"
+         android:text="cur..." >
+     </TextView>
+
+     <TextView
+         android:id="@+id/td"
+         style="@android:style/TextAppearance.Medium"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="4dip"
+         android:layout_weight="1"
+         android:gravity="center_horizontal|center_vertical"
+         android:text="td..." >
+     </TextView>
+ </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="158dp"
+         android:layout_height="wrap_content"
+         android:clickable="true"
+         android:longClickable="true" >
+
+     <TextView
+         android:id="@+id/mn"
+         style="@android:style/TextAppearance.Medium"
+         android:layout_width="wrap_content"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center"
+         android:layout_margin="4dip"
+         android:layout_weight="1"
+         android:gravity="center_horizontal|center_vertical"
+         android:text="mn..." >
+
+     </TextView>
+
+     <TextView
+         android:id="@+id/mx"
+         style="@android:style/TextAppearance.Medium"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="4dip"
+         android:layout_weight="1"
+         android:gravity="center_horizontal|center_vertical"
+         android:text="mx..." >
+     </TextView>
+     </LinearLayout>
+ </LinearLayout>
