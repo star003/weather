@@ -14,6 +14,7 @@ public class UpdateWidgetService extends Service {
 	
 	readS y = new readS("http://star003.dlinkddns.com/03.php");
 	//////////////////////////////////////////////////////////////////////////////////////////////////
+	@SuppressWarnings("deprecation")
 	@Override
 	public  void onStart(Intent intent, int startId) {
 		
